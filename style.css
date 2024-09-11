@@ -13,9 +13,11 @@ header {
     flex-direction: column;
     justify-content: space-evenly;
     text-align: center;
-    height: 50%;
-    width: 10%;
-    border: 1px solid black;
+    height: 100%;
+    width: 15%;
+    background-color: #0cc0df;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
 }
 
 main {
@@ -25,7 +27,6 @@ main {
     align-items: center;
     height: 50%;
     width: 90%;
-    border: 1px solid black;
 }
 
 h1 {
@@ -51,8 +52,16 @@ h2 {
 }
 
 .ctas_menu {
-    border: 1px solid #0cc0df;
-    background-color: #0cc0df;
-    border-radius: 8px;
-    padding: 10px;
+}
+
+.ctas_menu:hover,
+#ctas_play:hover {
+    cursor: pointer;
+    transform: scale(1.2);
+    transition: transform 0.3s ease-in-out;
+}
+
+.ctas_menu:not(:hover),
+#ctas_play:not(:hover) {    
+    transition: transform 0.3s ease-in-out;
 }
