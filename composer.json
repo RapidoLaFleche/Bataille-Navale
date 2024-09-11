@@ -1,0 +1,10 @@
+{
+    "name": "fastnaval/bataillenavale",
+    "description": "projet de bataille navale en web",
+    "authors": [
+        {
+            "name": "y"
+        }
+    ],
+    "require": {}
+}
