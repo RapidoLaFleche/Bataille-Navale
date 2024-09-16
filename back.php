@@ -253,6 +253,7 @@ class Boat{
             else{
                 $yourcase->set_state("sinked_boat");
                 $hiddencase->set_state("sinked_boat");
+                // frerot devient jaune stp
             }
 
             
