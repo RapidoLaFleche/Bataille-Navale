@@ -1,0 +1,14 @@
+{
+    "require": {
+        "mustache/mustache": "^2.14"
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/labasse/test-scaffolder"
+        }
+    ],
+    "require-dev": {
+    "syllab/test-scaffolder": "dev-main"
+    }
+}

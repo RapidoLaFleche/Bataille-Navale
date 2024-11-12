@@ -1,0 +1,148 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background: linear-gradient(180deg, rgb(112, 158, 231),rgb(112, 158, 231), #ff7eb3);
+    height: 100vh;
+} 
+
+h1 {
+    color: white;
+    font-family: "DynaPuff", serif;
+    margin: 30px;
+}
+
+h3{
+    text-align: start;
+    font-family: "DynaPuff", serif;
+    margin-bottom: 20px;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+
+
+.grille {
+    display: inline-block;
+    margin-top: 20px;
+    font-size: 24px;
+}
+
+.grille br {
+    content: "";
+    display: block;
+    margin: 5px 0;
+}
+
+
+.nav-header ul {
+    width: 100vw;
+    height: 10vh;
+    background-color: rgb(112, 158, 231);
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    
+    border-bottom: solid 3px white;
+}
+
+.nav-header ul li{
+    font-family: "DynaPuff", serif;
+    text-transform: uppercase;
+    margin-bottom: 2vh;
+    color: white;
+}
+
+
+.zone-jeu{
+    background-color: rgba(255, 255, 255, 0.3);
+    width: 45vw;
+    margin: auto;
+    border-radius: 15px 15px 0 0;
+}
+
+.form-jeu{
+    background-color: rgba(255, 255, 255, 0.3);
+    width: 45vw;
+    height: 20vh;
+    margin: auto;
+    border-top: solid 5px white;
+    border-radius:  0 0 15px 15px;
+    display: flex;
+    flex-direction: column ;
+
+}
+
+.coordonnée{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 15px;
+    height: 55%;
+}
+.form-jeu .coordonnée input{
+    background-color: white;
+    text-align: center;
+    border-radius: 15px;
+    border: solid 2px white;
+    width: 45%;
+}
+.form-jeu button{
+    margin-top: 20px;
+    height: 100%;
+    border: none;
+    border-radius: 0 0 15px 15px;
+}
+
+
+
+.zone-classement,.zone-regles{
+    background-color: rgba(255, 255, 255, 0.3);
+    width: 45vw;
+    margin: auto;
+    padding: 25px;
+    margin-top: 50px;
+    border-radius: 15px;
+}
+.zone-regles *{
+    color: white;
+    margin-bottom: 10px
+}
+#description{
+    margin-top: 40px;
+}
+
+.ligne-joueur{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: solid 2px black;
+    padding: 15px;
+
+}
+
+.ligne-joueur:first-of-type{
+    margin-top: 20px;
+}
+#first::after{
+    content: " 👑";
+}
+
+.message{
+    width: 45vw;
+    margin: auto;
+    border-top: solid 5px white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.3);
+    height: 5vh;
+    color: white;
+    font-family:"DynaPuff", serif;
+
+}
